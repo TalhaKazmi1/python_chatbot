@@ -1,24 +1,133 @@
 {
   "intents": [
-    {
+     {
       "tag": "greeting",
-      "patterns": ["Hi", "Hello", "Hey", "What's up"],
-      "responses": ["Hello! 👋", "Hey, how can I help you?", "Hi there!"]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you", "Goodnight"],
-      "responses": ["Goodbye! 👋", "See you later!", "Take care!"]
+      "patterns": ["hi", "hello", "hey", "what's up", "good morning"],
+      "responses": ["Hello 👋", "Hey! How can I help you?", "Hi there! 😊"]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "Appreciate it"],
-      "responses": ["You're welcome!", "No problem!", "Anytime!"]
+      "patterns": ["thanks", "thank you", "appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help 🙌"]
     },
     {
-      "tag": "name",
-      "patterns": ["What is your name?", "Who are you?", "Your name?"],
-      "responses": ["I’m a mini chatbot 🤖 built with Python!"]
+      "tag": "worldcup",
+      "patterns": ["who won 2022 world cup", "world cup final 2022", "argentina vs france"],
+      "responses": ["Argentina won the 2022 FIFA World Cup 🏆🇦🇷 beating France in the final!"]
+    },
+    {
+      "tag": "winner",
+      "patterns": [
+        "Who won World Cup 2022?",
+        "World Cup 2022 winner",
+        "Which team won in 2022?",
+        "FIFA 2022 champion",
+        "Who lifted the trophy 2022"
+      ],
+      "responses": [
+        "🏆 Argentina won the FIFA World Cup 2022, defeating France in the final."
+      ]
+    },
+    {
+      "tag": "final_match",
+      "patterns": [
+        "Who played the final in World Cup 2022?",
+        "Final match teams 2022?",
+        "Which countries were in the final?",
+        "Argentina vs France 2022"
+      ],
+      "responses": [
+        "⚽ The final was between Argentina 🇦🇷 and France 🇫🇷, with Argentina winning on penalties (4–2) after a 3–3 draw."
+      ]
+    },
+    {
+      "tag": "top_scorer",
+      "patterns": [
+        "Who was the top scorer in 2022?",
+        "Golden Boot 2022?",
+        "Most goals in FIFA 2022?",
+        "Who scored most goals 2022 World Cup"
+      ],
+      "responses": [
+        "🎯 Kylian Mbappé won the Golden Boot with 8 goals."
+      ]
+    },
+    {
+      "tag": "best_player",
+      "patterns": [
+        "Who was the best player 2022?",
+        "Golden Ball 2022?",
+        "Player of the tournament World Cup 2022"
+      ],
+      "responses": [
+        "🌟 Lionel Messi won the Golden Ball as the best player of the tournament."
+      ]
+    },
+    {
+      "tag": "best_goalkeeper",
+      "patterns": [
+        "Who was the best goalkeeper 2022?",
+        "Golden Glove 2022?",
+        "Best keeper World Cup 2022"
+      ],
+      "responses": [
+        "🧤 Emiliano Martínez (Argentina) won the Golden Glove award."
+      ]
+    },
+    {
+      "tag": "young_player",
+      "patterns": [
+        "Who was the best young player 2022?",
+        "Young player award World Cup 2022",
+        "Best young footballer in Qatar 2022"
+      ],
+      "responses": [
+        "🔥 Enzo Fernández (Argentina) won the FIFA Young Player Award."
+      ]
+    },
+    {
+      "tag": "matches_played",
+      "patterns": [
+        "How many matches were played in World Cup 2022?",
+        "Total games FIFA 2022",
+        "Number of matches 2022 tournament"
+      ],
+      "responses": [
+        "📊 A total of 64 matches were played in the 2022 FIFA World Cup."
+      ]
+    },
+    {
+      "tag": "host_country",
+      "patterns": [
+        "Where was the 2022 World Cup held?",
+        "Host country FIFA 2022?",
+        "Which nation hosted the World Cup 2022?"
+      ],
+      "responses": [
+        "🌍 The 2022 FIFA World Cup was hosted by Qatar."
+      ]
+    },
+    {
+      "tag": "stadiums",
+      "patterns": [
+        "Which stadiums were used in 2022?",
+        "Stadiums World Cup Qatar",
+        "List venues 2022 FIFA"
+      ],
+      "responses": [
+        "🏟️ The 2022 World Cup had 8 stadiums in 5 host cities in Qatar, including Lusail Stadium, Al Bayt Stadium, and Khalifa International Stadium."
+      ]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": [
+        "Tell me a fun fact about World Cup 2022",
+        "Interesting facts Qatar 2022",
+        "Something special about FIFA 2022"
+      ],
+      "responses": [
+        "✨ Fun Fact: The 2022 FIFA World Cup was the first ever to be held in the Middle East and the first in winter (November–December)."
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@ from sklearn.linear_model import LogisticRegression
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-with open(os.path.join(BASE_DIR, "intents.json")) as f:
+with open(os.path.join(BASE_DIR, "intents.json"), encoding="utf-8") as f:
     data = json.load(f)
 
 X_train, y_train = [], []
